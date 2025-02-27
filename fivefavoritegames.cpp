@@ -23,10 +23,10 @@ int main() {
         cout << "Let's just have you name them anyways";
         }
     else {
-        cout << "I didn't understand that request.\n";
+        cout << "I didn't understand that request.\n"; //different message if it doesn't relate to the answer
     }
 
-    cout << "What are your favorite games?\n";
+    cout << "What are your favorite games?\n"; //enter a list of favorite games
 
     string favGames[5];     // size of 10. arrays must specify in c++.
     int currentElement = 0;     // this points at the next available spot in the array
@@ -51,7 +51,7 @@ int main() {
     cout << "Now that you have listed all of your games, would you like to remove, edit, or add more?\n";
     cin >> input;
 
-    string favGames[5];
+    string favGames[5]; //curent number of games that you have listed
     string input;
 
     cin.ignore();
@@ -62,7 +62,7 @@ int main() {
 
         for(int i = 0; i < 5; i++) {
             if favGames[i] == ""{
-                favGames[i] = gameName;
+                favGames[i] = gameName; //put in the game name
                 cout << "Adding game now:" << input << "to list\n";
                 break;
             }

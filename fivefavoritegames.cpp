@@ -7,7 +7,7 @@
 using namespace std;
 
 int main() {
-    cout << "Do you want to ask what your favorite games are?\n";
+    cout << "Do you want to ask what your favorite games are?\n"; //ask the user if they want to name their favorite games
     cout << "Press 1 for Yes.\n";
     cout << "Press 2 for No.\n";
 

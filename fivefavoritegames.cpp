@@ -55,9 +55,9 @@ int main() {
     string input;
 
     cin.ignore();
-    getline(cin, input)
+    getline(cin, input) // getting the lines for the input
 
-    if (input == "Add") {
+    if (input == "Add") { // add the favorite games
         cin << "Put the game that you want to add to the list"
 
         for(int i = 0; i < 5; i++) {
@@ -69,7 +69,7 @@ int main() {
         }
         }
     }
-    else if (input == "Edit") {
+    else if (input == "Edit") { // edit the favorite games
         for(int i = 0; i < 5; i++) {
             if (input == favGames[i]) {
                 cout << "I've found the game, renaming it now.\n"
@@ -77,7 +77,7 @@ int main() {
             }
         }
     }
-    else if (input == "Remove") {
+    else if (input == "Remove") { // remove the favorite games
         for(int i = 0; i < 5; i++) {
             if (input == favGames[i]) {
                 cout << "I've found the game, removing it now.\n"
@@ -85,7 +85,7 @@ int main() {
             }
         }
     }
-    else if (input == "Show") {
+    else if (input == "Show") { //show the favorite games
         for (int i = 0; i < 5 i++) {
             if (favGames[i] == "") {
                 continue;

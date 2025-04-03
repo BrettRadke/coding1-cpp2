@@ -31,7 +31,7 @@ bool askYesno(string const question){ // question about the decision
     else{
         cout << "Say yes or no please...\n"
     }
-    cout << "Please answer yes or no: \n"
+    cin << "Please answer yes or no: \n"
     }
 }
 
@@ -70,7 +70,7 @@ void Adventure( ){ // adventure void
 
 void Ending() { // ending void
     cout << "Congratulations, your adventure is over and you have defeated the dragon! You rule the world!!!\n"
-    if health <= 0
+    if (health <= 0) {
         cout << "You have failed to save the princess from the dragon. Game over!"
     }
     else{
@@ -90,5 +90,5 @@ int main{ //comes from the void main statement
 }
 
 Ending() {
-
+    "End of story! No more!\n"
 }

@@ -1,0 +1,11 @@
+// Brett Radke
+// Human class assignment
+
+#include <iostream>
+#include <string>
+using namespace std;
+
+class Human {
+private:
+    string name
+}

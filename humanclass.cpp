@@ -38,4 +38,8 @@ public: // everybody can see this and edit this!
         return Damage;
     }
 
-} ;
+};
+
+int main () {
+    cout << "Hello there! I am going to make a glass of milk for you!\n";
+}

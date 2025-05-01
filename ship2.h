@@ -7,13 +7,10 @@ using namespace std;
 
 class Ship { //ship class
     public: //people can see this!
-        string name;
-        double fuel;
-        string shipType;
+        string name; //string name
+        double fuel; // fuel doubles
+        string shipType; //shiptype string
 
-
-        Ship(string n, double f, string type) //types of ship strings
-            :name(n), fuel(f), shipType(type) {};
 }
 void WriteShipToFile(string givenShip) { //write ship to the file
     ofstream file("shipper.txt", ios::app); //.txt file that it is sending to

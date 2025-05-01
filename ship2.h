@@ -5,14 +5,14 @@
 #include <string>
 using namespace std;
 
-class Ship { //ship class
+class myShip { //ship class
     public: //people can see this!
         string name; //string name
         double fuel; // fuel doubles
         string shipType; //shiptype string
 
 }
-void WriteShipToFile(string givenShip) { //write ship to the file
+void WriteShipToFile (givenShip) { //write ship to the file
     ofstream file("shipper.txt", ios::app); //.txt file that it is sending to
 
     if (!file.is_open()) { //if files are open
